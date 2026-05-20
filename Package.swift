@@ -11,82 +11,82 @@ let package = Package(
         .binaryTarget(
             name: "AppLovinMediationFyberAdapter",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationFyberAdapter.xcframework.zip",
-            checksum: "6da9bb4e8e8439480df894cc970e6bebc985f5e03c13715a5a9218db1fae1e7e"
+            checksum: "7d71969d08163f5c4532dc21eb237920dbfc47a09996ff36604cf59c4074f806"
         ),
         .binaryTarget(
             name: "AppLovinMediationGoogleAdManagerAdapter",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationGoogleAdManagerAdapter.xcframework.zip",
-            checksum: "3d95a5f62b8f48020fb8c896e7b52e23dc2fd8000f4487df9ae7972b64709a73"
+            checksum: "36875e3f36ce24cd5d4f46f0dd0ae10392cb29914925780633f5800f125b8168"
         ),
         .binaryTarget(
             name: "AppLovinMediationGoogleAdapter",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationGoogleAdapter.xcframework.zip",
-            checksum: "b66b9c6c50da1d83ce77daa40d4f9884b28c056176eacb3f40df1c38d0a52a3d"
+            checksum: "615c70acfee2cc5b98f9634475c3788e6c86a031b9e7df7efee90216b069bb70"
         ),
         .binaryTarget(
             name: "AppLovinMediationInMobiAdapter",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationInMobiAdapter.xcframework.zip",
-            checksum: "128cc8d1b38a688615cbcb476f416d17ae0b9737e0144e4b472686c0219476bc"
+            checksum: "e784e1511cd90a02a944dcf3bc1b571274cb82428bbdc7b399df8aba52771101"
         ),
         .binaryTarget(
             name: "AppLovinMediationUnityAdsAdapter",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationUnityAdsAdapter.xcframework.zip",
-            checksum: "de46ee47f6186b2f358b3a48362736593bdeb203985a95beb6e9e86aab55d9cc"
+            checksum: "3d0dccc3112a5fb9949b53bacd25d5004a0e99f2b73126b3faa34ed368cf192e"
         ),
         .binaryTarget(
             name: "AppLovinMediationVungleAdapter",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationVungleAdapter.xcframework.zip",
-            checksum: "c29a1905dc041e34eb62ada46616632ed1ce40803d6d90afca693a83150c3e90"
+            checksum: "9922a180d0bac21a1b4d6b29d234f4e57e46eea2c9068b63dfc63ca3e0300dd0"
         ),
         .binaryTarget(
             name: "AppLovinMediationByteDanceAdapter",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationByteDanceAdapter.xcframework.zip",
-            checksum: "ee0a2a6b780e7947560b1b3a4786525b37230bea13fbda68c6dc4b4e84c81fda"
+            checksum: "5d2aeefb966fd6850fcb3ce1476156f2f6e0439fc82f091f42d18663effa4914"
         ),
         .binaryTarget(
             name: "AppLovinMediationOguryPresageAdapter",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationOguryPresageAdapter.xcframework.zip",
-            checksum: "c795b6d1a65cb0f874186023223c16535f8330b42de1898efb3d0ce86f339aea"
+            checksum: "053a6fb46a6dd56c54452b6e89112994964fd712c589c865d4ddfa3b4f725543"
         ),
         .binaryTarget(
             name: "IASDKCore",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/IASDKCore.xcframework.zip",
-            checksum: "5102a6f71e5707d69c6fe3efd0d8135539f2cf63ca222a184e5ad25d85cef928"
+            checksum: "da1e432c385e2886f0f68f86c9b3ef4b9254abfa47badf0d26a988a75585c283"
         ),
         .binaryTarget(
             name: "InMobiSDK",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/InMobiSDK.xcframework.zip",
-            checksum: "88f514fa8bcd9253e4a4a386c12c42d1f3cf2bc7ebc019491e4849eb5fe66985"
+            checksum: "c58bac22886d53db70935f9527161d41844add54e74a5c6961a1d5addbda7af3"
         ),
         .binaryTarget(
             name: "UnityAds",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/UnityAds.xcframework.zip",
-            checksum: "655160bb9ff13c74f7af9144f748d603e3d5d8afa0f301fe6c41d4df6a98652e"
+            checksum: "b6c971f00b71fad47c4dbb3552d339ea9c3cdc6f113737690a46d0c11447b8d0"
         ),
         .binaryTarget(
             name: "PAGAdSDK",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/PAGAdSDK.xcframework.zip",
-            checksum: "59fed94d3c62d4ab9d2251b2a89adf760b50a0bea17e356826eb040c1f0f7ada"
+            checksum: "00115ac4ab9ff7b1d199ecc4491d8eb4179a4b6d26be832395dddc3473cc4065"
         ),
         .binaryTarget(
             name: "TikTokBusinessSDK",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/TikTokBusinessSDK.xcframework.zip",
-            checksum: "faff48a346c47940edaac7d148d2e2a3d85118c5a9e3e5b9f70be52713c4769d"
+            checksum: "5b2de62253745afd3970614b48c840caac0ef73c964db664d46e6b6fe93133d6"
         ),
         .binaryTarget(
             name: "OgurySdk",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/OgurySdk.xcframework.zip",
-            checksum: "4eef30ec23fb2a3189a748470c2ad18a060ebb5b57635ef7baffb8af2d42e01c"
+            checksum: "8583394f7845913cb67057af42aa9ecaa215ddd48e7955c2158d564cf0cee172"
         ),
         .binaryTarget(
             name: "OguryCore",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/OguryCore.xcframework.zip",
-            checksum: "b591df132e8dfd55b475a8b93cb92d44c635fb9db12fb52674da4b3b041d195b"
+            checksum: "341423e365b411e071df5ca920b64dc4cac20e19a2f3fe2ef9a034b45468becb"
         ),
         .binaryTarget(
             name: "OguryAds",
             url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/OguryAds.xcframework.zip",
-            checksum: "777b7ee40023a64546563647b49f01ae7404bfac0122dbb3fefbecc0393855b8"
+            checksum: "f3ca364977a79f82bf73e9e0baa9f92317af15585df506c83000f78b33bbe9de"
         ),
         .target(
             name: "AppLovinMediation",
