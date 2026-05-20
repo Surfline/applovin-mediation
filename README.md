@@ -12,7 +12,7 @@ Binary artifacts are hosted on [GitHub Releases](https://github.com/Surfline/app
 packages:
   AppLovinMediation:
     url: git@github.com:Surfline/applovin-mediation.git
-    exactVersion: 1.0.0
+    exactVersion: 1.0.1
 
 dependencies:
   - package: AppLovinMediation
