@@ -9,88 +9,93 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
+            name: "AppLovinMediationByteDanceAdapter",
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/AppLovinMediationByteDanceAdapter.xcframework.zip",
+            checksum: "255071ffaac1d2c1b8ea6f0a859593314512be0db713ed0a5ff5721249391e5f"
+        ),
+        .binaryTarget(
             name: "AppLovinMediationFyberAdapter",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationFyberAdapter.xcframework.zip",
-            checksum: "7d71969d08163f5c4532dc21eb237920dbfc47a09996ff36604cf59c4074f806"
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/AppLovinMediationFyberAdapter.xcframework.zip",
+            checksum: "b42a67a00a089a63d05a134c08d2971eb87a211a18a95e86fdb196c2054afc5c"
         ),
         .binaryTarget(
             name: "AppLovinMediationGoogleAdManagerAdapter",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationGoogleAdManagerAdapter.xcframework.zip",
-            checksum: "36875e3f36ce24cd5d4f46f0dd0ae10392cb29914925780633f5800f125b8168"
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/AppLovinMediationGoogleAdManagerAdapter.xcframework.zip",
+            checksum: "676dd5676426bba963451ae19fc5e1a80c4f52ac2e342933cb8e6b2e3a65670b"
         ),
         .binaryTarget(
             name: "AppLovinMediationGoogleAdapter",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationGoogleAdapter.xcframework.zip",
-            checksum: "615c70acfee2cc5b98f9634475c3788e6c86a031b9e7df7efee90216b069bb70"
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/AppLovinMediationGoogleAdapter.xcframework.zip",
+            checksum: "1d80bf84f55769488f4d0d9b8afcfd4687d924b89a035a5cc1d7f71f6e25be55"
         ),
         .binaryTarget(
             name: "AppLovinMediationInMobiAdapter",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationInMobiAdapter.xcframework.zip",
-            checksum: "e784e1511cd90a02a944dcf3bc1b571274cb82428bbdc7b399df8aba52771101"
-        ),
-        .binaryTarget(
-            name: "AppLovinMediationUnityAdsAdapter",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationUnityAdsAdapter.xcframework.zip",
-            checksum: "3d0dccc3112a5fb9949b53bacd25d5004a0e99f2b73126b3faa34ed368cf192e"
-        ),
-        .binaryTarget(
-            name: "AppLovinMediationVungleAdapter",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationVungleAdapter.xcframework.zip",
-            checksum: "9922a180d0bac21a1b4d6b29d234f4e57e46eea2c9068b63dfc63ca3e0300dd0"
-        ),
-        .binaryTarget(
-            name: "AppLovinMediationByteDanceAdapter",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationByteDanceAdapter.xcframework.zip",
-            checksum: "5d2aeefb966fd6850fcb3ce1476156f2f6e0439fc82f091f42d18663effa4914"
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/AppLovinMediationInMobiAdapter.xcframework.zip",
+            checksum: "120986657ea6c44d0b8f732325fbc756950cd4fc9dadb966564321a8af99bb6e"
         ),
         .binaryTarget(
             name: "AppLovinMediationOguryPresageAdapter",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/AppLovinMediationOguryPresageAdapter.xcframework.zip",
-            checksum: "053a6fb46a6dd56c54452b6e89112994964fd712c589c865d4ddfa3b4f725543"
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/AppLovinMediationOguryPresageAdapter.xcframework.zip",
+            checksum: "8514c829703b36e159dbb5af4173192d84c7c7b26588ca9ca49729b2b6008cd6"
+        ),
+        .binaryTarget(
+            name: "AppLovinMediationUnityAdsAdapter",
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/AppLovinMediationUnityAdsAdapter.xcframework.zip",
+            checksum: "7b0017b5bb43bf442464bdd8124ae59bbaf8c2efad159a07a5689207b543ef45"
+        ),
+        .binaryTarget(
+            name: "AppLovinMediationVungleAdapter",
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/AppLovinMediationVungleAdapter.xcframework.zip",
+            checksum: "aaf4f9941dc66f8a92b4c559d7df5db82810cda22a2d70c75a2f5e796af00e0b"
         ),
         .binaryTarget(
             name: "IASDKCore",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/IASDKCore.xcframework.zip",
-            checksum: "da1e432c385e2886f0f68f86c9b3ef4b9254abfa47badf0d26a988a75585c283"
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/IASDKCore.xcframework.zip",
+            checksum: "1d37a2b84c4e9d813f3138266edeccfb74f18cd9e103dd2f7684e4d3563d3ad8"
         ),
         .binaryTarget(
             name: "InMobiSDK",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/InMobiSDK.xcframework.zip",
-            checksum: "c58bac22886d53db70935f9527161d41844add54e74a5c6961a1d5addbda7af3"
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/InMobiSDK.xcframework.zip",
+            checksum: "4300049c973f987b44468691780cea99cf56174aca8b52831b67bb095754b988"
         ),
         .binaryTarget(
-            name: "UnityAds",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/UnityAds.xcframework.zip",
-            checksum: "b6c971f00b71fad47c4dbb3552d339ea9c3cdc6f113737690a46d0c11447b8d0"
-        ),
-        .binaryTarget(
-            name: "PAGAdSDK",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/PAGAdSDK.xcframework.zip",
-            checksum: "00115ac4ab9ff7b1d199ecc4491d8eb4179a4b6d26be832395dddc3473cc4065"
-        ),
-        .binaryTarget(
-            name: "TikTokBusinessSDK",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/TikTokBusinessSDK.xcframework.zip",
-            checksum: "5b2de62253745afd3970614b48c840caac0ef73c964db664d46e6b6fe93133d6"
-        ),
-        .binaryTarget(
-            name: "OgurySdk",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/OgurySdk.xcframework.zip",
-            checksum: "8583394f7845913cb67057af42aa9ecaa215ddd48e7955c2158d564cf0cee172"
-        ),
-        .binaryTarget(
-            name: "OguryCore",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/OguryCore.xcframework.zip",
-            checksum: "341423e365b411e071df5ca920b64dc4cac20e19a2f3fe2ef9a034b45468becb"
+            name: "OMSDK_Ogury",
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/OMSDK_Ogury.xcframework.zip",
+            checksum: "7b50b1aa34f88e5f9b81b0f3830116b68764b3456cc286c2b8411492e65ba63b"
         ),
         .binaryTarget(
             name: "OguryAds",
-            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.0/OguryAds.xcframework.zip",
-            checksum: "f3ca364977a79f82bf73e9e0baa9f92317af15585df506c83000f78b33bbe9de"
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/OguryAds.xcframework.zip",
+            checksum: "d41bb0fe2172981cefa24e6a8e7904e68a113b83334cad1c569633407831f4df"
+        ),
+        .binaryTarget(
+            name: "OguryCore",
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/OguryCore.xcframework.zip",
+            checksum: "f098b89a537af601cf183bfab4694ecfb80b2a19232e24227e186b8d36b60fb1"
+        ),
+        .binaryTarget(
+            name: "OgurySdk",
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/OgurySdk.xcframework.zip",
+            checksum: "cdc1ef5e511b6adf7ccfcd3a8b4a98c8f77d335926a51a7e5fd4009c79b7735d"
+        ),
+        .binaryTarget(
+            name: "PAGAdSDK",
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/PAGAdSDK.xcframework.zip",
+            checksum: "90fccc956b976283677c6895c77f158c206eae83bc99d5d1009ccdf3cfe1e622"
+        ),
+        .binaryTarget(
+            name: "TikTokBusinessSDK",
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/TikTokBusinessSDK.xcframework.zip",
+            checksum: "b6f132a37732a09c872a143a3399a7999b4175b7c7192179bb0fbc8e57f370bf"
+        ),
+        .binaryTarget(
+            name: "UnityAds",
+            url: "https://github.com/Surfline/applovin-mediation/releases/download/1.0.2/UnityAds.xcframework.zip",
+            checksum: "89f45166621d781f6731562dfa758bcbbc1c0374fd24f09dd5f49435bae1003d"
         ),
         .target(
             name: "AppLovinMediation",
-            dependencies: ["AppLovinMediationFyberAdapter", "AppLovinMediationGoogleAdManagerAdapter", "AppLovinMediationGoogleAdapter", "AppLovinMediationInMobiAdapter", "AppLovinMediationUnityAdsAdapter", "AppLovinMediationVungleAdapter", "AppLovinMediationByteDanceAdapter", "AppLovinMediationOguryPresageAdapter", "IASDKCore", "InMobiSDK", "UnityAds", "PAGAdSDK", "TikTokBusinessSDK", "OgurySdk", "OguryCore", "OguryAds"],
+            dependencies: ["AppLovinMediationFyberAdapter", "AppLovinMediationGoogleAdManagerAdapter", "AppLovinMediationGoogleAdapter", "AppLovinMediationInMobiAdapter", "AppLovinMediationUnityAdsAdapter", "AppLovinMediationVungleAdapter", "AppLovinMediationByteDanceAdapter", "AppLovinMediationOguryPresageAdapter", "IASDKCore", "InMobiSDK", "UnityAds", "PAGAdSDK", "TikTokBusinessSDK", "OgurySdk", "OguryCore", "OguryAds", "OMSDK_Ogury"],
             resources: [.copy("Resources/PAGAdSDK.bundle")],
             linkerSettings: [.linkedLibrary("resolv")]
         ),
