@@ -1,20 +1,18 @@
-# SurflineAppLovinMediation
+# AppLovinMediation
 
-Swift package distributing AppLovin MAX mediation adapters and network SDK xcframeworks for Surfline iOS. Large binaries are hosted on [GitHub Releases](https://github.com/Surfline/surfline-ios-applovin-mediation/releases); this repo contains `Package.swift` and checksums only.
-
-surfline-ios also depends on **AppLovinSDK**, **GoogleMobileAds**, and **VungleAdsSDK** via SPM separately.
+Swift package distributing AppLovin MAX mediation adapters and network SDK xcframeworks. Large binaries are hosted on [GitHub Releases](https://github.com/Surfline/applovin-mediation/releases); this repo contains `Package.swift` and checksums only.
 
 ## Consumption
 
 ```yaml
 packages:
-  SurflineAppLovinMediation:
-    url: git@github.com:Surfline/surfline-ios-applovin-mediation.git
+ AppLovinMediation:
+    url: git@github.com:Surfline/applovin-mediation.git
     exactVersion: 1.0.0
 
 dependencies:
-  - package: SurflineAppLovinMediation
-    product: SurflineAppLovinMediation
+  - package: AppLovinMediation
+    product: AppLovinMediation
 ```
 
 ## Release
