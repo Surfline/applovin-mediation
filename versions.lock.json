@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "notes": "Pinned to AppLovin MAX adapter versions on 2026-05-19. Ogury OMSDK is required at runtime by OguryAds.",
+  "artifacts": [
+    {
+      "id": "adapter_fyber",
+      "kind": "adapter",
+      "url": "https://artifacts.applovin.com/ios/com/applovin/mediation/fyber-adapter/AppLovinMediationFyberAdapter-8.4.7.0.zip",
+      "dest": "Adapters/AppLovinMediationFyberAdapter.xcframework",
+      "extract": "adapter_xcframework"
+    },
+    {
+      "id": "adapter_google_ad_manager",
+      "kind": "adapter",
+      "url": "https://artifacts.applovin.com/ios/com/applovin/mediation/googleadmanager-adapter/AppLovinMediationGoogleAdManagerAdapter-13.4.0.0.zip",
+      "dest": "Adapters/AppLovinMediationGoogleAdManagerAdapter.xcframework",
+      "extract": "adapter_xcframework"
+    },
+    {
+      "id": "adapter_google",
+      "kind": "adapter",
+      "url": "https://artifacts.applovin.com/ios/com/applovin/mediation/google-adapter/AppLovinMediationGoogleAdapter-13.4.0.0.zip",
+      "dest": "Adapters/AppLovinMediationGoogleAdapter.xcframework",
+      "extract": "adapter_xcframework"
+    },
+    {
+      "id": "adapter_inmobi",
+      "kind": "adapter",
+      "url": "https://artifacts.applovin.com/ios/com/applovin/mediation/inmobi-adapter/AppLovinMediationInMobiAdapter-11.3.0.0.zip",
+      "dest": "Adapters/AppLovinMediationInMobiAdapter.xcframework",
+      "extract": "adapter_xcframework"
+    },
+    {
+      "id": "adapter_unity",
+      "kind": "adapter",
+      "url": "https://artifacts.applovin.com/ios/com/applovin/mediation/unityads-adapter/AppLovinMediationUnityAdsAdapter-4.18.1.0.zip",
+      "dest": "Adapters/AppLovinMediationUnityAdsAdapter.xcframework",
+      "extract": "adapter_xcframework"
+    },
+    {
+      "id": "adapter_vungle",
+      "kind": "adapter",
+      "url": "https://artifacts.applovin.com/ios/com/applovin/mediation/vungle-adapter/AppLovinMediationVungleAdapter-7.7.3.0.zip",
+      "dest": "Adapters/AppLovinMediationVungleAdapter.xcframework",
+      "extract": "adapter_xcframework"
+    },
+    {
+      "id": "adapter_bytedance",
+      "kind": "adapter",
+      "url": "https://artifacts.applovin.com/ios/com/applovin/mediation/bytedance-adapter/AppLovinMediationByteDanceAdapter-8.0.0.9.0.zip",
+      "dest": "Adapters/AppLovinMediationByteDanceAdapter.xcframework",
+      "extract": "adapter_xcframework"
+    },
+    {
+      "id": "adapter_ogury",
+      "kind": "adapter",
+      "url": "https://artifacts.applovin.com/ios/com/applovin/mediation/ogurypresage-adapter/AppLovinMediationOguryPresageAdapter-5.2.3.0.zip",
+      "dest": "Adapters/AppLovinMediationOguryPresageAdapter.xcframework",
+      "extract": "adapter_xcframework"
+    },
+    {
+      "id": "network_dt_exchange",
+      "kind": "network",
+      "url": "https://cdn2.inner-active.mobi/fmp-sdk/files/DTExchangeSDK-iOS-v8.4.7.zip",
+      "dest": "NetworkSDKs/IASDKCore.xcframework",
+      "extract": "xcframework_by_name",
+      "xcframework_name": "IASDKCore.xcframework"
+    },
+    {
+      "id": "network_inmobi",
+      "kind": "network",
+      "url": "https://dl.inmobicdn.net/sdk/11.3.0/InMobiSDK.xcframework-11.3.0.zip",
+      "dest": "NetworkSDKs/InMobiSDK.xcframework",
+      "extract": "xcframework_by_name",
+      "xcframework_name": "InMobiSDK.xcframework",
+      "optional": true,
+      "manual_note": "If download fails, place InMobiSDK.xcframework in build/staging/NetworkSDKs/ from InMobi portal."
+    },
+    {
+      "id": "network_unity",
+      "kind": "network",
+      "url": "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.18.1/UnityAds.zip",
+      "dest": "NetworkSDKs/UnityAds.xcframework",
+      "extract": "xcframework_by_name",
+      "xcframework_name": "UnityAds.xcframework"
+    },
+    {
+      "id": "network_pangle",
+      "kind": "network",
+      "url": "https://sf16-fe-tos-sg.i18n-pglstatp.com/obj/pangle-sdk-static-va/8.0.0.9/SDK.zip",
+      "extract": "pangle_sdk_zip",
+      "dests": [
+        "NetworkSDKs/PAGAdSDK.xcframework",
+        "NetworkSDKs/TikTokBusinessSDK.xcframework",
+        "NetworkSDKs/PAGAdSDK.bundle"
+      ]
+    },
+    {
+      "id": "network_ogury_sdk",
+      "kind": "network",
+      "url": "https://binaries.ogury.co/release/ios/5.2.3/OgurySdk-5.2.3.zip",
+      "dest": "NetworkSDKs/OgurySdk.xcframework",
+      "extract": "xcframework_by_name",
+      "xcframework_name": "OgurySdk.xcframework"
+    },
+    {
+      "id": "network_ogury_core",
+      "kind": "network",
+      "url": "https://binaries.ogury.co/release/core-ios/2.2.1/OguryCore-2.2.1.zip",
+      "dest": "NetworkSDKs/OguryCore.xcframework",
+      "extract": "xcframework_by_name",
+      "xcframework_name": "OguryCore.xcframework"
+    },
+    {
+      "id": "network_ogury_ads",
+      "kind": "network",
+      "url": "https://binaries.ogury.co/release/ads-ios/4.2.2/OguryAds-4.2.2.zip",
+      "dest": "NetworkSDKs/OguryAds.xcframework",
+      "extract": "xcframework_by_name",
+      "xcframework_name": "OguryAds.xcframework"
+    },
+    {
+      "id": "network_ogury_omsdk",
+      "kind": "network",
+      "url": "https://binaries.ogury.co/release/omsdk-ios/1.5.7/OMSDK_Ogury-1.5.7.zip",
+      "dest": "NetworkSDKs/OMSDK_Ogury.xcframework",
+      "extract": "xcframework_by_name",
+      "xcframework_name": "OMSDK_Ogury.xcframework",
+      "required_rpath_for": ["OguryAds"]
+    }
+  ]
+}
